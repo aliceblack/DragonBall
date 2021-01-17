@@ -1,7 +1,16 @@
 canvas {
-    background: #eee; display: block; margin: 0 auto; 
+    display: block; 
+    margin: 0 auto; 
+    background: url('assets/back.jpg') no-repeat;
+    background-size: 100%;
 }
 
 .controls{
     font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, violet, #46896e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

@@ -62,12 +62,12 @@ function drawEnemies(){
 function drawPlayer(){
     if(upPressed) {
         if (y > 0){
-            y -= 1;
+            y -= 2;
         }
     }
     else if(downPressed) {
         if(y < canvas.height-dimensionY){
-            y += 1;
+            y += 2;
         }
     }
     collisionDetection();
